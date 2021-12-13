@@ -77,3 +77,16 @@
     filter: invert(0.2) sepia(0.8);
     transform: scale(1.5);
 }
+
+/* Esercizio 10 */
+.ex-10-icon{
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-360deg);}
+}
